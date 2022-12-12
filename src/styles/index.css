@@ -5,6 +5,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  @apply bg-blue-300
+}
 
 input[type="date"]::webkit-calendar-picker-indicator {
   cursor: pointer;
