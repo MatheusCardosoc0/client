@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CustomButton = ({title, btnType}) => {
+const CustomButton = ({title, btnType, hanfleClick, styles}) => {
   return (
     <div>CustomButton</div>
   )
